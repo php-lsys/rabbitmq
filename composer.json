@@ -1,0 +1,21 @@
+{
+	"name" : "lsys/rabbitmq",
+	"type" : "library",
+	"license" : "Apache-2.0",
+	"description" : "lsys module rabbitmq",
+	"autoload" : {
+		"psr-4" : {
+			"LSYS\\" : "src/classes/LSYS/"
+		}
+	},
+	"require" : {
+		"php-amqplib/php-amqplib" : ">=2.6.1",
+		"lsys/config" : "~0.0.1"
+	},
+	"require-dev" : {
+		"google/protobuf" : "v3.4.1"
+	},
+	"suggest" : {
+		"google/protobuf" : "v3.4.1"
+	}
+}
